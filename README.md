@@ -63,7 +63,7 @@ If you want to try TAMAGO-03, you can just run this.
 roslaunch hark_sound_localization tamago.launch
 ```
 
-I added the raw data topic `/hark_wave` of type `hark_msgs/HarkWave` in addition to the topic `/hark_source`.
+I added the wave data topic `/hark_wave` of type `hark_msgs/HarkWave` in addition to the topic `/hark_source`.
 
 
 
