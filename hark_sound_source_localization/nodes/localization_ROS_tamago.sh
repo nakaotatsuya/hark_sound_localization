@@ -9,4 +9,4 @@ echo ""
 echo "ALSA Audio Device ID : $DEVICE"
 echo ""
 
-rosrun hark_sound_source_localization localization_ROS_microcone_test.n ${TF} ${DEVICE}
+rosrun hark_sound_source_localization localization_ROS_tamago.n ${TF} ${DEVICE}
