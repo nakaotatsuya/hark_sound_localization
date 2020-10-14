@@ -57,6 +57,17 @@ For the microcone launch:
 roslaunch hark_sound_source_localization microcone.launch
 ```
 
+# Use TAMAGO-03
+If you want to try TAMAGO-03, you can just run this.
+```
+roslaunch hark_sound_localization tamago.launch
+```
+
+I added the raw data topic `/hark_wave` of type `hark_msgs/HarkWave` in addition to the topic `/hark_source`.
+
+
+
+
 # Change parameters
 
 If you need to change the device used you need to edit the file [localization_ROS_pseye.sh](hark_sound_source_localization/nodes/localization_ROS_pseye.sh).
