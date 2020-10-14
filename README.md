@@ -58,14 +58,13 @@ roslaunch hark_sound_source_localization microcone.launch
 ```
 
 # Use TAMAGO-03
-If you want to try TAMAGO-03, you can just run this.
+I added localization_tf file for TAMAGO in [it](https://github.com/nakaotatsuya/hark_sound_localization/tree/master/hark_sound_source_localization/networks/TF).
+So if you want to try TAMAGO-03, you can just run this.
 ```
 roslaunch hark_sound_localization tamago.launch
 ```
 
-I added the wave data topic `/hark_wave` of type `hark_msgs/HarkWave` in addition to the topic `/hark_source`.
-
-
+And You can also see the wave data topic `/hark_wave` of type `hark_msgs/HarkWave` in addition to the topic `/hark_source`.
 
 
 # Change parameters
