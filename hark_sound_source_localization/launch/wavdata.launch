@@ -1,0 +1,7 @@
+<launch>
+  <arg name="harkwave" default="/HarkWave" />
+  
+  <node name="wavdata" pkg="hark_sound_localization" type="wavdata_node.py" >
+    <remap from="harkwave" to="$(arg harkwave)" />
+  </node>
+</launch>
